@@ -1,0 +1,34 @@
+<html>
+ <head>
+ </head>
+ <title>top site in the world</title>
+ <body>
+ <div id="id1">
+ Красный текст <br>
+ <button id="btn1" onclick="changerBlue()">cfg</button>
+ </div>
+ <div id="id2">
+ Синий <br>
+ <button id="btn2" onclick="changeRed()">cfg2</button>
+ </div>
+ <button id="btn3" onclick="changeNew()">тут будут new "cfg"</button>
+ <script type="text/javascript">
+var elemid1 = document.getElementById('id1');
+var elemid2 = document.getElementById('id2');
+elemid1.style.background = 'red';
+elemid2.style.background = 'blue';
+function changerBlue(){elemid1.style.background='blue';}
+function changerRed(){elemid1.style.background='red';}
+function createdNew(){
+var parentElem = document.body;
+var newDivElem = document.createdElement('div');
+newDieElem.style.background='yellow';
+newDieElem.innerHTML='Привет я з села';
+parentElem.appendChild(newDivElem);}
+</script>
+</body>
+</html>
+
+
+
+ 
